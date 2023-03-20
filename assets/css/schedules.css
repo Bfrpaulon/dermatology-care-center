@@ -1,0 +1,92 @@
+/* Definições de estilo para o elemento body */
+html,
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Definições de estilo para o elemento menu */
+.menu {
+  width: 15%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+/* Definições de estilo para o elemento main */
+.main {
+  max-width: 85%;
+  margin-left: 15%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Definições de estilo para o elemento header */
+.header {
+  min-height: 150px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Definições de estilo para o elemento content */
+.content {
+  text-align: justify;
+  min-height: 300px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Definições de estilo para o elemento footer */
+.footer {
+  text-align: center;
+  min-height: 150px;
+  background-color: #d6cdcd;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Definições de estilo para os links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
